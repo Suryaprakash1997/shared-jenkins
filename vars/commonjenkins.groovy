@@ -1,3 +1,4 @@
+def call() {
 pipeline {
     agent any
 
@@ -111,4 +112,5 @@ CMD ["node", "apps/web/server.js"]
             }
         }
     }
+}
 }
